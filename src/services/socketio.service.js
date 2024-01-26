@@ -6,7 +6,7 @@ class SocketioService {
 
   setupSocketConnection(token) {
     // eslint-disable-next-line no-undef
-    const URL = 'http://localhost:3000'
+    const URL = 'http://52.221.232.148:3000'
     this.socket = io(URL, { auth: { token } })
 
     console.log(`Connecting socket...`)
